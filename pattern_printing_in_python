@@ -1,0 +1,97 @@
+### rectangel square etc printing
+"""
+*****
+*****
+*****
+*****
+*****
+"""
+
+# num = int(input("enter the number of rows:"))
+# for i in range(num):
+#     print( "\t\t\t"+"*"*num)
+
+
+# Traingle printing pattern in python
+"""
+                * 
+               * * 
+              * * * 
+             * * * * 
+            * * * * * 
+"""
+# num = int(input("how much lines of star you want to print:"))
+# for i in range(1,num+1):
+#     print("\t\t\t"," "* (num-i) +"* " *i)
+
+
+# num = int(input("how much lines of star you want to print:"))
+# # for i in range(1,num+1):
+# #     print(" "*(num-i) +"* " * i)
+
+
+
+#### for opposite traingle printing
+"""
+                * * * * * 
+                 * * * * 
+                  * * * 
+                   * * 
+                    * 
+"""
+# num = int(input("how much lines of star you want to print:"))
+# for i in range(num, 0, -1):
+#     print("\t\t\t"," "* (num-i) +"* " *i)
+
+
+
+
+### for <> print this type of patteern
+"""
+                    * 
+                   * * 
+                  * * * 
+                 * * * * 
+                * * * * * 
+                * * * * * 
+                 * * * * 
+                  * * * 
+                   * * 
+                    * 
+
+"""
+
+# num = int(input("how much lines of star you want to print:"))
+# for i in range(1,num+1):
+#     print("\t\t\t"," "* (num-i) +"* " *i)
+#
+# for i in range(num, 0, -1):
+#     print("\t\t\t"," "* (num-i) +"* " *i)
+
+
+
+
+"""
+print this
+                * * * * *
+                  * * * *
+                    * * *
+                      * *
+                        *
+"""
+# num = int(input("how much lines of star you want to print:"))
+# for i in range(num, 0, -1):
+#     print("\t\t\t","  "* (num-i) +"* " *i)
+
+
+"""
+            * * * * * 
+               * * * * 
+                  * * * 
+                     * * 
+                        * 
+
+"""
+# num = int(input("how much lines of star you want to print:"))
+# for i in range(num, 0, -1):
+#     print("\t\t\t","   "* (num-i) +"* " *i)
